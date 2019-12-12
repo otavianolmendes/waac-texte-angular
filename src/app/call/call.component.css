@@ -1,0 +1,92 @@
+.box-call{
+  position: relative;
+  background: url("src/img/bikeBG.png") no-repeat top;
+  width: 100%;
+  padding: 50% auto;
+}
+
+.box-form-call{
+  padding: 20px 0;
+}
+form{
+  background: rgb(255, 0, 0, 0.8);
+  border-radius: 20px;
+  margin: 20px 0;
+  padding: 40px 40px;
+  width: 600px;
+  left: 50%;
+  position: relative;
+
+}
+
+form h3, p{
+  color: #fff;
+  text-align: center;
+}
+
+h3{
+  font-size: 2em;
+  font-weight: bold;
+  padding: 2% 0;
+}
+p{
+  font-size: 20px;
+  padding: 2% 8%;
+  margin: 0 0 10px 0;
+}
+
+form label, form legend{
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 0 2%;
+  color: #fff;
+  margin: 10px auto;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 10px;
+  padding: 10px 10px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.enviar{
+  width: 100%;
+  padding: 10px 0;
+  margin: 10px 0;
+  background: #e6a670;
+  color: white;
+  font-weight: 900;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 01s all;
+}
+
+.enviar:hover{
+  background: #780b00;
+  transition: 02s all;
+  transform: scale(1.2);
+}
+
+.button-row{
+  background: #780b00;
+  position: relative;
+  height: 30px;
+}
+.btn-access{
+  background: #780b00;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  margin: -30px 0;
+  padding: 20px 30px;
+  position: absolute;
+  top: 0;
+  right: 50%;
+
+}

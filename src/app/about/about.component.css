@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.row-about-bike{
+  background: #000;
+  width: 1920px;
+  align-items: center;
+  display: inline-block;
+}
+.row p{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 10px 10px;
+}
+
+.row-card{
+  width: 100%;
+  margin: 0 50px;
+  padding: 50px 400px;
+}
+.card{
+  border: none;
+  margin: 0 5px;
+  direction: inline-block;
+
+}
+.card-body{
+
+}
+img{
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+.btn-card{
+  align-items: center;
+  color: #fff;
+  background: #E6A670;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 40px;
+}
+.card-body h5{
+  color: #000;
+  
+}
+
+.card-body p {
+  color: #000;
+  font-size: 0.8em;
+}
